@@ -26,6 +26,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import MyWebView from './src/ViewWeb_component';
 import Main from './src/screens/Main';
+import MapScreen from './src/components/Mapa';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -67,7 +68,7 @@ function App(): React.JSX.Element {
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: isDarkMode ? Colors.darker : Colors.lighter }}>
       <StatusBar hidden={true} />
-      <Main />
+      <MapScreen />
     </SafeAreaView>
   );
   
