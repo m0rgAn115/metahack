@@ -68,7 +68,7 @@ function App(): React.JSX.Element {
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: isDarkMode ? Colors.darker : Colors.lighter }}>
       <StatusBar hidden={true} />
-      <MapScreen />
+      <Main />
     </SafeAreaView>
   );
   
