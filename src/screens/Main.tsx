@@ -262,6 +262,10 @@ export const Main = () => {
           {/* Contenido de respuesta */}
           <View style={{ padding: 10, marginTop: 10 }} >
             <Text style={{ color: 'white', fontSize: 22, textAlign: 'left' }} >ddaddsdasd dasdasdas sadasdad sdas dsassa</Text>
+            <View style={{ height: 200,marginTop: 20}} >
+             <Mapa/>
+
+            </View>
           </View>
 
         </View> 
